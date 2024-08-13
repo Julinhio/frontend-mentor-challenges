@@ -1,11 +1,57 @@
-header {
-    width: 100%;
-    border-radius: 8px;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  color: hsl(24, 5%, 18%); /* Stone 900 */
+  margin: 0;
+  padding: 0;
+  background-color: hsl(30, 54%, 90%); /* Stone 100 */
 }
 
+h1, h2, h3 {
+  font-family: 'Young Serif', serif;
+}
+
+.container {
+    max-width: 50%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: hsl(0, 0%, 100%); /* White */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 100%;
+    border-radius: 12px;
+}
+  
 h1 {
-    font-family: 'Young Serif', serif;
-    font-size: 2rem; /* Adjust as needed */
+    font-size: 2rem;
     color: hsl(24, 5%, 18%); /* Stone 900 */
     margin-top: 1rem;
+}
+
+.preparation-time {
+    background-color: hsl(330, 100%, 98%); /* Rose 50 */
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
   }
+  
+  .preparation-time h3 {
+    color: hsl(332, 51%, 32%); /* Rose 800 */
+    margin-bottom: 0.5rem;
+  }
+  
+  .preparation-time ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .preparation-time li {
+    margin-bottom: 0.5rem;
+    color: hsl(24, 5%, 18%); /* Stone 900 */
+  }
+  
