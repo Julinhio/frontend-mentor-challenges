@@ -9,7 +9,7 @@ body {
   background-color: hsl(30, 54%, 90%); /* Stone 100 */
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: 'Young Serif', serif;
 }
 
@@ -46,7 +46,6 @@ h1 {
   }
   
   .preparation-time ul {
-    list-style: none;
     padding-left: 0;
   }
   
