@@ -3,9 +3,9 @@
 body {
   font-family: 'Outfit', sans-serif;
   font-size: 16px;
-  color: hsl(24, 5%, 18%); /* Stone 900 */
+  color: hsl(30, 10%, 34%); /* Stone 900 */
   margin: 0;
-  padding: 0;
+  padding: 5px;
   background-color: hsl(30, 54%, 90%); /* Stone 100 */
 }
 
@@ -14,43 +14,104 @@ h1, h2 {
 }
 
 .container {
-    max-width: 50%;
-    margin: 2rem auto;
-    padding: 1.5rem;
+    max-width: 800px;
+    margin: 6rem auto;
+    padding: 2rem;
     background-color: hsl(0, 0%, 100%); /* White */
-    border-radius: 20px;
+    border-radius: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header img {
     width: 100%;
-    border-radius: 12px;
+    border-radius: 10px;
 }
   
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: hsl(24, 5%, 18%); /* Stone 900 */
+    font-weight: 400;
     margin-top: 1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 2.2rem;
 }
 
 .preparation-time {
     background-color: hsl(330, 100%, 98%); /* Rose 50 */
-    padding: 1rem 2rem;
     border-radius: 8px;
     margin: 1.5rem 0;
   }
   
   .preparation-time h3 {
+    margin-left: 1.5rem;
     color: hsl(332, 51%, 32%); /* Rose 800 */
     margin-bottom: 0.5rem;
   }
   
   .preparation-time ul {
-    padding-left: 0;
+    padding-left: 3rem;
   }
   
   .preparation-time li {
     margin-bottom: 0.5rem;
-    color: hsl(24, 5%, 18%); /* Stone 900 */
+    padding-left: 15px;
   }
-  
+
+  .ingredients ul {
+    padding-left: 1.5rem;
+  }
+
+  .ingredients li {
+    margin-bottom: 1rem;
+    padding-left: 15px;
+  }
+
+  hr {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.2;
+  }
+
+  .instructions {
+    margin-top: 1rem;
+  }
+
+  .instructions ol {
+    padding-left: 1.5rem;
+  }
+
+  .instructions li {
+    margin-bottom: 1rem;
+    padding-left: 15px;
+  }
+
+  .instructions li::marker {
+    font-weight: 700;
+  }
+
+  .nutrition  td {
+    font-weight: 900;
+    text-align: left;
+  }
+
+  .nutrition th {
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .nutrition table {
+    width: 100%;
+    border-collapse: collapse; /* Remove spacing between cells */
+  }
+
+  .nutrition th, .nutrition td {
+    padding: 0.75rem 1rem; /* Adjust the padding as needed */
+}
+
+.nutrition tr:not(:last-child) {
+    border-bottom: 1px solid hsl(30, 18%, 87%); /* Stone 150 */
+}
