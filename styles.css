@@ -9,6 +9,18 @@ body {
   background-color: hsl(30, 54%, 90%); /* Stone 100 */
 }
 
+@media (max-width: 768px) {
+  body {
+    background-color: hsl(0, 0%, 100%); /* Set background to white on mobile */
+  }
+  .container {
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+
+}
+
+
 h1, h2 {
   font-family: 'Young Serif', serif;
 }
